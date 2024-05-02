@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <script src="https://kit.fontawesome.com/49ae3a1838.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="maincon">
+        <div class="nav">
+            <i class="fa-solid fa-backward design"></i>
+            <i class="fa-solid fa-bars design"></i>
+        </div>
+
+        <img src="musicDp.jpg" alt="">
+        <span>Lutt Putt gaya</span>
+
+        <audio  class="song" type="audio/mpeg">
+
+            <source src="Lutt Putt Gaya Dunki 128 Kbps.mp3" >
+
+
+          
+        </audio>
+        <input type="range" class="controler" value="0">
+
+        <div class="Musiccontrolers">
+            <i class="fa-solid fa-backward"></i>
+           <div onclick="playpasue()">
+               <i  class="fa-solid fa-play"></i>
+               
+        </div> 
+            <i class="fa-solid fa-forward"></i>
+        </div>
+    </div>
+    
+    
+</body>
+<script src="script.js"></script>
+</html>

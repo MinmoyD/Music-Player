@@ -1,0 +1,71 @@
+.maincon{
+    width:30vw;
+    height: 80vh;
+    background-color:#9f6464;
+    border-radius:30px;
+    /* border: 2px solid red ; */
+    margin: auto;
+    margin-top: 5%;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.design{
+    color: azure;
+    margin: 11px 20px
+    
+}
+img{
+    width: 130px;
+    margin-top: 43px;
+    margin-left: 96px;
+    border-radius: 50%;
+    box-shadow: -1px 0px 11px #fb0808;
+
+}
+span{
+    display: inline-block;
+    margin: 10px 119px;
+    font-family: cursive;
+    color: #ffffff;
+
+}
+.controler{
+
+    border-radius: 20px;
+    margin: 37px 2px;
+    width: 90%;
+    height: 3px;
+    box-shadow: -1px 0px 11px #fb0808;
+    margin-left: 15px;
+
+}
+
+.Musiccontrolers{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 28px;
+    color: azure;
+   
+    
+}
+
+.fa-solid {
+    width: 33px;
+    height: 21px;
+    /* box-shadow: -1px 0px 11px #fb0808; */
+    display: flex;
+    background-color: #ffa9a9;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+}
+.fa-play{
+    transform: scale(1.5);
+}
+.fa-pause{
+    transform: scale(1.5);
+    color: #9f6464;
+}
